@@ -9,7 +9,7 @@ A streaming adapter for
 $ npm install intercom-stream --save
 ```
 
-```
+```javascript
 var Intercom = require('intercom-client');
 var intercomOptions = {
   appId: process.env.INTERCOM_APP_ID,

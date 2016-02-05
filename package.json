@@ -1,0 +1,23 @@
+{
+  "name": "intercom-stream",
+  "version": "1.0.0",
+  "description": "Stream adapter for intercom-node.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lerouxb/intercom-stream.git"
+  },
+  "author": "Le Roux Bodenstein <lerouxb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lerouxb/intercom-stream/issues"
+  },
+  "homepage": "https://github.com/lerouxb/intercom-stream#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "event-stream": "^3.3.2"
+  }
+}

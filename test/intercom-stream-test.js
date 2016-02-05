@@ -2,20 +2,6 @@
 var assert = require('assert');
 var getIntercomStream = require('..');
 
-
-/*
-function makeBlankResultsPromise() {
-}
-function makeOnePagePromise() {
-}
-function makePageOnePromise() {
-}
-function makePageTwoPromise() {
-}
-function makePageThreePromise() {
-}
-*/
-
 var RESULTS_PER_PAGE = 5;
 
 function makeFakeClient(key, numResults) {

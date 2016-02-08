@@ -21,6 +21,7 @@
     "event-stream": "^3.3.2"
   },
   "devDependencies": {
+    "bluebird": "^3.2.2",
     "mocha": "^2.4.5"
   }
 }

@@ -1,6 +1,7 @@
 'use strict';
 var assert = require('assert');
 var getIntercomStream = require('..');
+var Promise = require('bluebird');
 
 var RESULTS_PER_PAGE = 5;
 
